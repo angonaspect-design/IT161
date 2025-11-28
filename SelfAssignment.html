@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Order Form</title>
+</head>
+
+<body>
+
+    <h1>Please fill out the form below</h1>
+
+    <form action="save_order.php" method="POST">
+
+        <!-- First Name -->
+        <label>First Name:</label>
+        <input type="text" name="firstName" placeholder="First Name" minlength="2" maxlength="20" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label>Last Name:</label>
+        <input type="text" name="lastName" placeholder="Last Name" minlength="2" maxlength="20" required>
+        <br><br>
+
+        <!-- Food Preference -->
+        <label>Which food would you like to eat?</label>
+        <select name="foodChoice">
+            <option>Chicken</option>
+            <option>Beef</option>
+            <option>Fish</option>
+        </select>
+        <br><br>
+
+        <!-- Allergies -->
+        <label>Do you have any allergies?</label><br>
+        <textarea name="allergies" rows="6" cols="25" placeholder="Type here..."></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send">
+
+    </form>
+
+</body>
+</html>
