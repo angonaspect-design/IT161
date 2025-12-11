@@ -1,0 +1,27 @@
+/* 1. h1 tag text color → green */
+h1 {
+    color: green;
+}
+
+/* 2. h2 tag text color → purple */
+h2 {
+    color: purple;
+}
+
+/* 3. Paragraph styling (background + text color) */
+p {
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 4. Button styling (blue background + white text) */
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
