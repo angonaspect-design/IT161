@@ -10,8 +10,8 @@ h2 {
 
 /* 3. Paragraph styling (background + text color) */
 p {
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(5, 77, 26);
+    color: rgb(245, 8, 146);
     padding: 10px;
     border-radius: 5px;
 }
