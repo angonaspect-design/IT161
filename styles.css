@@ -1,0 +1,42 @@
+/* Crimson for items 1 and 5 */
+.crimson {
+    color: crimson;
+}
+
+/* Greenish color for items 2 and 8 */
+.green {
+    color: green;
+}
+
+/* Michigan Maize — official hex color */
+.maize {
+    color: #FFCB05;
+}
+
+/* Nebraska Red for items 4 and 6 */
+.red {
+    color: red;
+}
+
+/* Burnt Orange for Texas Longhorns */
+.burnt {
+    color: #BF5700; /* official UT Burnt Orange */
+}
+
+/* YES button → green */
+#yesBtn {
+    background-color: green;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* NO button → red */
+#noBtn {
+    background-color: red;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+}
