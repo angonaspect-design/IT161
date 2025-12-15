@@ -1,0 +1,11 @@
+{
+    "name": "Ryu Endo",
+    "age": 22,
+    "city": "Seattle, WA",
+    "interests": [
+        "Sports",
+        "Video Game",
+        "Music"
+    ],
+    "is_student": true
+}
